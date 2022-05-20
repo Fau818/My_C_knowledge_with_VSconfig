@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <!-- 标题 -->
+      <Title>getline()</Title>
+      <!-- 缩写代码 -->
+      <Shortcut>getline</Shortcut>
+      <!-- 代码描述 -->
+      <Description>string类型读入一行</Description>
+      <!-- 作者 -->
+      <Author>Fau</Author>
+      <!-- <SnippetTypes> -->
+      <!-- Expansion允许代码插入在光标处 -->
+      <!--<SnippetType>Expansion</SnippetType>-->
+      <!-- SurroundsWith允许代码围绕在选中代码两边 -->
+      <!--<SnippetType>SurroundsWith</SnippetType> -->
+      <!--</SnippetTypes>-->
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>text1</ID>
+          <ToolTip>变量名</ToolTip>
+          <Default>str</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[getline(cin, $text1$);$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

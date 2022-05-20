@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <!-- 标题 -->
+      <Title>multimap创建</Title>
+      <!-- 缩写代码 -->
+      <Shortcut>multimap</Shortcut>
+      <!-- 代码描述 -->
+      <Description>无</Description>
+      <!-- 作者 -->
+      <Author>Fau</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>key</ID>
+          <ToolTip>key值</ToolTip>
+          <Default>int</Default>
+        </Literal>
+        <Literal>
+          <ID>value</ID>
+          <ToolTip>value值</ToolTip>
+          <Default>int</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>容器名称</ToolTip>
+          <Default>m</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[multimap<$key$,$value$> $name$;$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

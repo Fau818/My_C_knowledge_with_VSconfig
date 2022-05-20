@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <!-- 标题 -->
+      <Title>ssacnf()</Title>
+      <!-- 缩写代码 -->
+      <Shortcut>sscanf</Shortcut>
+      <!-- 代码描述 -->
+      <Description>从字符串中读入 格式: sscanf(缓冲区, 格式, 存储位置)</Description>
+      <!-- 作者 -->
+      <Author>Fau</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>buffer</ID>
+          <ToolTip>缓冲区</ToolTip>
+          <Default>buffer</Default>
+        </Literal>
+        <Literal>
+          <ID>format</ID>
+          <ToolTip>格式</ToolTip>
+          <Default></Default>
+        </Literal>
+        <Literal>
+          <ID>adress</ID>
+          <ToolTip>存储位置</ToolTip>
+          <Default></Default>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[sscanf($buffer$, "$format$", $adress$);$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

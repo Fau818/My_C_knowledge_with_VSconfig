@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>forr</Title>
+			<Shortcut>forr</Shortcut>
+			<Description>forr 循环的代码片段</Description>
+			<Author>Microsoft Corporation</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+				<SnippetType>SurroundsWith</SnippetType>
+			</SnippetTypes>
+		</Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>type</ID>
+          <Default>int</Default>
+          <ToolTip>控制变量类型</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>index</ID>
+          <Default>i</Default>
+          <ToolTip>索引</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>max</ID>
+          <Default>n</Default>
+          <ToolTip>最大长度</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>min</ID>
+          <Default>1</Default>
+          <ToolTip>初始值</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>op</ID>
+          <Default>&lt;&#61;</Default>
+          <ToolTip>操作符号</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>fact</ID>
+          <Default>++</Default>
+          <ToolTip>index变化方式</ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[for ($type$ $index$ = $min$; $index$ $op$ $max$; $fact$$index$)
+		{
+			$selected$ $end$
+		}]]>
+      </Code>
+    </Snippet>
+	</CodeSnippet>
+</CodeSnippets>

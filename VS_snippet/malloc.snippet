@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <!-- 标题 -->
+      <Title>malloc()</Title>
+      <!-- 缩写代码 -->
+      <Shortcut>malloc</Shortcut>   
+      <!-- 代码描述 -->
+      <Description>动态内存申请</Description>
+      <!-- 作者 -->
+      <Author>Fau</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>text1</ID>
+          <ToolTip>返回类型</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>text2</ID>
+          <ToolTip>获取大小</ToolTip>
+          <Default>node</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[($text1$*)malloc(sizeof($text2$));$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

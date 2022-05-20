@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <!-- 标题 -->
+      <Title>memset()</Title>
+      <!-- 缩写代码 -->
+      <Shortcut>memset</Shortcut>   
+      <!-- 代码描述 -->
+      <Description>memset(地址, 初始化内容, 总大小)</Description>
+      <!-- 作者 -->
+      <Author>Fau</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>text1</ID>
+          <ToolTip>首地址</ToolTip>
+          <Default>a</Default>
+        </Literal>
+        <Literal>
+          <ID>text2</ID>
+          <ToolTip>初始化内容</ToolTip>
+          <Default>0</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[memset($text1$, $text2$, sizeof($text1$));$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

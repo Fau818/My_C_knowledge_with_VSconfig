@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <!-- 标题 -->
+      <Title>max_(min_)element</Title>
+      <!-- 缩写代码 -->
+      <Shortcut>element</Shortcut>
+      <!-- 代码描述 -->
+      <Description>max_element() min_element()</Description>
+      <!-- 作者 -->
+      <Author>Fau</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>Begin</ID>
+          <ToolTip>开始下标</ToolTip>
+          <Default>a</Default>
+        </Literal>
+        <Literal>
+          <ID>End</ID>
+          <ToolTip>value值</ToolTip>
+          <Default>n</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[element($Begin$, $Begin$+$End$);$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <!-- 标题 -->
+      <Title>sprintf</Title>
+      <!-- 缩写代码 -->
+      <Shortcut>sprintf</Shortcut>
+      <!-- 代码描述 -->
+      <Description>写入到字符串 格式: sprintf(字符串, 格式, 来源)</Description>
+      <!-- 作者 -->
+      <Author>Fau</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>string</ID>
+          <ToolTip>缓冲区</ToolTip>
+          <Default>str</Default>
+        </Literal>
+        <Literal>
+          <ID>format</ID>
+          <ToolTip>格式</ToolTip>
+          <Default></Default>
+        </Literal>
+        <Literal>
+          <ID>adress</ID>
+          <ToolTip>来源</ToolTip>
+          <Default></Default>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[sprintf($string$, "$format$", $adress$);$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

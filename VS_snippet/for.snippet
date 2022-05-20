@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>for</Title>
+			<Shortcut>for</Shortcut>
+			<Description>for 循环的代码片段</Description>
+			<Author>Fau</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+				<SnippetType>SurroundsWith</SnippetType>
+			</SnippetTypes>
+		</Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>index</ID>
+          <Default>i</Default>
+          <ToolTip>索引</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>max</ID>
+          <Default>length</Default>
+          <ToolTip>最大长度</ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[for (int $index$ = 0; $index$ < $max$; ++$index$)
+		{
+			$end$
+		}]]>
+      </Code>
+    </Snippet>
+	</CodeSnippet>
+</CodeSnippets>
